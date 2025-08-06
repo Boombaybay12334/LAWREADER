@@ -1,0 +1,19 @@
+# File: requirements.txt
+
+#Dependencies for the Legal Document Analyzer Pipeline
+
+# Core dependencies
+pdfplumber>=0.9.0
+transformers>=4.30.0
+torch>=2.0.0
+google-generativeai>=0.3.0
+openai>=1.0.0
+
+# Optional dependencies for better performance
+accelerate>=0.20.0
+sentencepiece>=0.1.99
+
+# Utility dependencies
+pathlib2>=2.3.7
+python-dotenv>=1.0.0
+fpdf>=1.7.2
